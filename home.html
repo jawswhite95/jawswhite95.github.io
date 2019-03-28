@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: auto;
+      border-radius: auto;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      height: 700px;
+      background-color: #ffd1fb;
+      color:rgb(18, 49, 49);
+      }
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #ff00c8;
+      height: auto;
+      font-weight:bold;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:darkviolet;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: rgb(81, 20, 87);
+      color: rgb(232, 248, 2);
+      padding: 15px;
+      font-size: 15;
+
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">jiwoo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">I am :)</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+
+    <div class="col-sm-8 text-left"> 
+      <h3><strong><em>기본 정보</em></strong></h3>
+      <h4>인천대학교 조형예술학부 한국화전공</h4>
+      <h4>phone number : 010 2992 6516</h4>
+      <h4>e - mail : jawswhite95@naver.com</h4>
+      <h4>거주지 : 2기숙사 & 16호관</h4>
+      <h3><strong><em>그외 정보</em></strong></h3>
+      <h4><strong>***내가 그린 가장 뿌듯한 그림***</strong></h4>
+      <img src="https://postfiles.pstatic.net/MjAxOTAzMjdfMjk1/MDAxNTUzNjEyOTA2MTA3.PE7nUllRGcjQDqTSBc87blh7wTQqf2Bes5He9oYKXgUg.4iAiM9G-wcNKAQWD30XDuUpMw-Bl-iSJdbdHF0g7wX4g.PNG.jawswhite95/%EB%8A%98%EB%B3%B4_1.png?type=w966" heigth="240" width="460">
+      <h4><strong>***맛있는 학교음식 순위 best 3! (*개인 의견)***</strong></h4>
+      <ol>
+        <li>1기식</li>
+        <li>공씨네 얼큰라면</li>
+        <li>토도 매콤삼겹마요 <strong>+계란추가</strong></li>
+      </ol>
+      <h4><strong>***먹고 울렁거리는 학교음식 순위 worst 3! (*개인 의견)***</strong></h4>
+      <ol>
+        <li>공씨네 닭갈비주먹밥</li>
+        <li>학식 얼큰국밥 <strong>소금 안뿌린 경우</strong></li>
+        <li>2기식 까르보나라스파게티</li>
+      </ol>
+      <p>~^0^~</p>
+      <div style="overflow:scroll; width:1500px; height:500px;">
+      <h3><strong>만들고 싶은 서비스</strong></h3>
+      <h4><strong><em>* 웹툰모음사이트 *</em></strong></h4>
+      <img src="https://t1.daumcdn.net/cfile/tistory/990B9E3D5BA642090A" height="240" width="460" >
+      <p> 네이버가 아닌 다른 플랫폼에서 연재하는 웹툰은 <strong>따로 찾아가 챙겨보기 힘들기 때문에</strong> 한 번에 볼 수 있는
+          사이트가 있으면 좋겠다고 생각했습니다.<br>
+          네이버가 아니어도 재미있는 웹툰이 많은데 <strong>사람들에게 알려지지 않고 완결이 나는 것</strong>이 너무 아쉬웠습니다.<br>
+          네이버, 다음, 올레마켓웹툰, 코미코, 탑툰, 카카오페이지 등의 웹툰들을 한 사이트에 모아놓고 매일 확인할 수 있는
+          서비스를 만들고 싶습니다.</p>
+          <ul>
+              <li><strong>요일별 카테고리</strong> - 모든 사이트 웹툰 요일별 분류</li>
+              <li><strong>주제별 카테고리</strong> - 주제별/ 연령별 / 조회수 / 고구마와 사이다 등 </li>
+              <li><strong>독자게시판</strong> - 독자 간 웹툰 추천 & 웹툰 내용에 관한 담소 </li>
+              <li><strong>웹툰 소개 페이지</strong> - '책 끝을 접다' 처럼 하나의 이야기로 압축</li>
+            </ul>
+            <br>
+      <h4><strong><em>* 미용꿀팁사이트 *</em></strong></h4>
+      <img src="http://www.uzhaber.com/images/haberler/bayan_kuaforu_nasil_olunur_h17161.jpg" height="240" width="460">
+      <p>
+         머리는 한 번 잘못 만지면 원상태로 돌리기에 많은 시간이 걸립니다.<br>
+         미용사와의 소통도 중요하고, 미용사의 실력도 중요하다고 생각하는데 이런 정보는 알기 힘듭니다.<br>
+         근처 미용실에 대한 정보와 여러 사람들이 살면서 터득한 머리관리방법을 공유할 수 있다면 좋겠다고 생각했습니다.<br>
+         <strong>소중한 머리를 잘 관리할 수 있게</strong> 도움을 주는 서비스를 만들고 싶습니다.
+      </p>
+         <ul>
+           <li><strong>동네 미용실 정보 공유</strong> - 미용사의 실력 / 잘하는 분야 / 시술의 가격 등</li>
+           <li><strong>헤어 시뮬레이션</strong> - 하고 싶은 머리를 아바타처럼 자신의 사진에 붙이기</li>
+           <li><strong>머리 손질 방법 공유 게시판</strong> - 모발에 따른 손질방법 & 좋은 상품 공유 </li>
+         </ul>
+         <br>
+      <h4><strong><em>* 요즘문화사이트 *</em></strong></h4>
+      <img src="https://youthassembly.or.kr/old/niabbs5/upload/userfile/o_1c06ti46s14gi1a881d4119471c75a.jpg" height="240" width="460">
+      <p>
+        항상 만나는 사람만 만나다 보니 요즘 문화에 대해 많이 모르고 있다는 생각이 들었습니다.<br>
+        유행에 민감하지 못한 사람들과, 요즘 유행하는 문화를 이해하고 싶은 사람들에게 유용한 서비스를 만들고 싶습니다.<br>
+        그리고 <strong>유행하는 문화나 음식, 유행어, 최근 이슈 등</strong>의 정보를 모아 자료로 만들면<br> <strong>그 당시에 어떤 것이 유행</strong>했는지 
+        한 눈에 볼 수 있어 유용한 자료가 될 것 같아 만들고 싶습니다.
+        <ul>
+          <li><strong>연령별 / 집단별 카테고리 생성</strong></li>
+          <li><strong>여러 사람들에게 얻은 데이터로 유행어나 유행하는 것 등 정의</strong></li>
+          <li><strong>주간 빅이슈</strong></li>
+          <li><strong>어떤 상황에서 사용하는 것인지 예시 제공</strong></li>
+          <li><strong>유행이 지나면 유행이 지났음을 표시</strong></li>
+        </ul>
+      </p>
+      <br>
+      </div>
+
+
+
+
+      
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p><strong>Webtoon</strong></p>
+      </div>
+      <div class="well">
+        <p><strong>Hair</strong></p>
+      </div>
+      <div class="well">
+        <p><strong>Archive</strong></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>thank you!</p>
+</footer>
+
+</body>
+</html>
